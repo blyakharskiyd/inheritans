@@ -1,0 +1,48 @@
+.wrapper {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.dataWrapper {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.select {
+  margin: 0;
+  width: 150px;
+}
+
+.dataWrapperItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.wrapper > div {
+  margin: auto 50px;
+}
+
+.objectWrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 5px 50px;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.object {
+  margin: 10px;
+}
